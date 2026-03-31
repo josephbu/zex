@@ -759,8 +759,8 @@ function serve_ui(): void {
 
     $is_light     = (UI_THEME !== 'dark-moody');
     $title_style  = $t['title_grad'] === 'none'
-        ? "color: {$t['text']}; font-style: italic;"
-        : "font-style: italic; background: {$t['title_grad']}; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;";
+        ? "color: {$t['text']};"
+        : "background: {$t['title_grad']}; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;";
     $card_top_bar = $is_light
         ? "background: linear-gradient(90deg, transparent, {$t['accent']}, transparent); opacity: 0.2;"
         : "background: linear-gradient(90deg, transparent, {$t['accent']}, transparent); opacity: 0.6;";
@@ -815,10 +815,11 @@ function serve_ui(): void {
   }
 
   .header h1 {
-    font-family: var(--title-font);
+    font-family: var(--body-font);
     font-size: clamp(2rem, 5vw, 3.2rem);
-    font-weight: 400;
-    letter-spacing: -0.02em;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.05em;
     line-height: 1.15;
     margin-bottom: 0.5rem;
     ' . $title_style . '
