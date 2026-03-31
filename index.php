@@ -806,12 +806,12 @@ function serve_ui(): void {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem 1.5rem 5rem;
+    padding: 1.75rem 1.25rem 3.5rem;
   }
 
   .header {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 1.75rem;
   }
 
   .header h1 {
@@ -852,7 +852,7 @@ function serve_ui(): void {
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 20px;
-    padding: 2.5rem;
+    padding: 2rem;
     width: 100%;
     max-width: 560px;
     position: relative;
@@ -871,7 +871,7 @@ function serve_ui(): void {
   .drop-zone {
     border: 2px dashed var(--border);
     border-radius: 14px;
-    padding: 3rem 2rem;
+    padding: 2.25rem 1.5rem;
     text-align: center;
     cursor: pointer;
     transition: all 0.25s ease;
@@ -1144,7 +1144,7 @@ function serve_ui(): void {
   .error-msg.show { display: block; }
 
   .footer {
-    margin-top: 3rem;
+    margin-top: 2.25rem;
     font-size: 0.78rem;
     color: var(--muted);
     text-align: center;
