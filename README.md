@@ -98,6 +98,20 @@ define('COPYRIGHT_HOLDER', 'JB');       // footer “All rights reserved” name
 | `business-clean` | Off-white, near-black accent, Fraunces heading |
 | `dark-moody` | Dark surface, purple/violet accent, Instrument Serif heading |
 
+#### Theme screenshots
+
+**light-breezy**
+
+![ZEX theme: light-breezy](screenshot-light.png)
+
+**business-clean**
+
+![ZEX theme: business-clean](screenshot-business.png)
+
+**dark-moody**
+
+![ZEX theme: dark-moody](screenshot-dark.png)
+
 ### Slide size (PPTX)
 
 Defaults match a 1920×1080-style 16:9 canvas. Adjust `PPTX_W_EMU` / `PPTX_H_EMU` if your exports use another aspect ratio (1 EMU = 1/914400 inch).
